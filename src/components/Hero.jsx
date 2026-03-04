@@ -1,11 +1,9 @@
-
 export default function Hero() {
   return (
     <section className="hero" id="home">
       <div className="container">
         <div className="hero-inner">
 
-          
           <div className="hero-text">
             <div className="hero-tag">
               <span className="hero-dot"></span>
@@ -25,22 +23,15 @@ export default function Hero() {
             </p>
 
             <div className="hero-btns">
-              
               <a href="mailto:ommprda30@gmail.com" className="btn-primary">
                 ✉️ Hire Me
               </a>
-              <a>            
-                href="/Omm_Java_FullstackDeveloper.pdf"
-                download="public/Omm_Java_FullstackDeveloper.pdf"
-                className="btn-outline"
-            </a> 
-             <a>
+              <button className="btn-outline" onClick={() => window.open("/Omm_Java_FullstackDeveloper.pdf")}>
                 ⬇️ Download CV
-              </a>
+              </button>
             </div>
           </div>
 
-          
           <div className="hero-image-wrap">
             <div className="hero-image-ring">
               <img src="/omm.jpg" alt="Omm Ashish Parida" />

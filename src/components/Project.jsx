@@ -2,14 +2,14 @@ import { useEffect, useRef } from 'react'
 
 const techs = [
   'HTML', 'CSS', 'JavaScript', 'React JS', 'JSX',
-  'Spring Boot', 'Hibernate', 'MySQL', 'REST API', 'Core Java',
+  'Core Java', 'Advanced Java', 'Spring Boot', 'REST API', 'MySQL',
 ]
 
 const features = [
-  { icon: '🖥️', title: 'Responsive UI',       desc: 'Built with HTML, CSS & React JS — works across all screen sizes.' },
-  { icon: '📊', title: 'Data Visualization',   desc: 'Dynamic charts and graphs to monitor energy usage patterns.' },
-  { icon: '🔗', title: 'REST API Integration', desc: 'Seamless frontend-backend communication via RESTful APIs.' },
-  { icon: '🗄️', title: 'Database Layer',       desc: 'Hibernate ORM with MySQL for reliable CRUD operations.' },
+  { icon: '📝', title: 'Resume Builder UI',     desc: 'Interactive form-based UI built with React JS and JSX to input and preview resume data.' },
+  { icon: '🎨', title: 'Live Preview',           desc: 'Real-time resume preview with clean formatting using HTML and CSS.' },
+  { icon: '🔗', title: 'REST API Integration',   desc: 'Spring Boot REST APIs handle resume data submission and retrieval seamlessly.' },
+  { icon: '📄', title: 'PDF Export',             desc: 'Export your resume as a downloadable PDF directly from the browser.' },
 ]
 
 export default function Project() {
@@ -35,15 +35,15 @@ export default function Project() {
 
         <div className="project-card fade-up">
           <div className="project-top">
-            <div className="project-title">⚡ Sustainable Energy Monitoring Dashboard</div>
+            <div className="project-title">📄 Resume Builder</div>
             <span className="project-type">Web Application</span>
           </div>
 
           <p className="project-desc">
-            A full-stack web application to track and visualize energy consumption
-            data in real time. Helps users monitor usage patterns and promotes
-            sustainable energy awareness through a clean, interactive UI and
-            data visualization.
+            A full-stack Resume Builder web application that allows users to create,
+            customize, and download professional resumes. Built with React JS on the
+            frontend and Spring Boot on the backend, it offers a smooth form-filling
+            experience with live preview and PDF export functionality.
           </p>
 
           <div className="tech-tags">
