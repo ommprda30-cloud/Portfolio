@@ -15,7 +15,7 @@ export default function App() {
       <Project />
       <Contact />
       <footer>
-        <p>© 2024 Omm Ashish Parida · Built with React + Vite</p>
+        <p>© 2026 Omm Ashish Parida · Built with React + Vite</p>
       </footer>
     </>
   )

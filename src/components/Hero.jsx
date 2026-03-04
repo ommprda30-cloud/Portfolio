@@ -26,7 +26,7 @@ export default function Hero() {
               <a href="mailto:ommprda30@gmail.com" className="btn-primary">
                 ✉️ Hire Me
               </a>
-              <button className="btn-outline" onClick={() => window.open("/Omm_Java_FullstackDeveloper.pdf")}>
+              <button className="btn-outline" onClick={() => window.open("/Ashish_Java_FullStackDeveloper.pdf")}>
                 ⬇️ Download CV
               </button>
             </div>
