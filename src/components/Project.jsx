@@ -6,10 +6,26 @@ const techs = [
 ]
 
 const features = [
-  { icon: '📝', title: 'Resume Builder UI',     desc: 'Interactive form-based UI built with React JS and JSX to input and preview resume data.' },
-  { icon: '🎨', title: 'Live Preview',           desc: 'Real-time resume preview with clean formatting using HTML and CSS.' },
-  { icon: '🔗', title: 'REST API Integration',   desc: 'Spring Boot REST APIs handle resume data submission and retrieval seamlessly.' },
-  { icon: '📄', title: 'PDF Export',             desc: 'Export your resume as a downloadable PDF directly from the browser.' },
+  {
+    icon: '📝',
+    title: 'AI-Based Learning Management System',
+    desc: 'Interactive user interface built with React JS and JSX to manage courses, students, and learning activities.',
+  },
+  {
+    icon: '🎨',
+    title: 'Progress Tracking',
+    desc: 'Real-time progress tracking with a clean and responsive UI for students and instructors.',
+  },
+  {
+    icon: '🔗',
+    title: 'REST API Integration',
+    desc: 'Spring Boot REST APIs handle course data, user details, and learning records seamlessly.',
+  },
+  {
+    icon: '📄',
+    title: 'Database Management',
+    desc: 'SQL is used to store and manage users, courses, assessments, and progress data efficiently.',
+  },
 ]
 
 export default function Project() {
@@ -35,15 +51,15 @@ export default function Project() {
 
         <div className="project-card fade-up">
           <div className="project-top">
-            <div className="project-title">📄 Resume Builder</div>
+            <div className="project-title">📄 AI-Based Learning Management System</div>
             <span className="project-type">Web Application</span>
           </div>
 
           <p className="project-desc">
-            A full-stack Resume Builder web application that allows users to create,
-            customize, and download professional resumes. Built with React JS on the
-            frontend and Spring Boot on the backend, it offers a smooth form-filling
-            experience with live preview and PDF export functionality.
+            An AI-Based Learning Management System web application that allows users to access courses,
+             manage learning content, and track progress efficiently. 
+            Built with React JS on the frontend and Spring Boot on the backend,it offers a smooth learning experience with personalized recommendations, 
+            interactive course management, and secure database-driven functionality.
           </p>
 
           <div className="tech-tags">
